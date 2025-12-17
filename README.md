@@ -205,13 +205,6 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "H4x Hub",
-   Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/H4xScripts/Loader/refs/heads/main/loader.lua", true))()
-   end,
-})
-
-local Button = Tab:CreateButton({
    Name = "Vector Hub",
    Callback = function()
  loadstring(game:HttpGet("https://raw.githubusercontent.com/AAwful/Vector_Hub/0/v2"))()
