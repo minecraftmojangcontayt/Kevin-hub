@@ -254,4 +254,60 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/riddance-club/script/
 
    end,
 })
-Rayfield:LoadConfiguration()
+
+local Tab = Window:CreateTab("Fisch", 4483362458) -- Title, Image
+
+local Section = Tab:CreateSection("Fisch")
+
+local Button = Tab:CreateButton({
+   Name = "Forge Hub",
+   Callback = function()
+ -- Forge Hub
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Skzuppy/forge-hub/main/loader.lua"))()
+
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Flow hub",
+   Callback = function()
+ -- Flow Hub
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/Overflow/refs/heads/main/Main.lua"))()
+
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Alchemy Hub",
+   Callback = function()
+ loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
+
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Than hub",
+   Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/thantzy/thanhub/refs/heads/main/thanv1"))()
+
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Native Hub",
+   Callback = function()
+ loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Native-hub-75575"))()
+
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Speed Hub X",
+   Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+
+   end,
+})
+
+
+Rayfield:LoadConfiguration() 
